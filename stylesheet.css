@@ -1,0 +1,82 @@
+body  {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    color: black;
+    font-family: "Rubik", sans-serif;
+}
+
+h2 {
+    font-size: 5em;
+    padding-top: 12%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.mainnavbar {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 40px;
+    margin-bottom: 10%;
+}
+
+a {
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: lightcoral;
+}
+
+a:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    text-align: right;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100vh;
+
+}
+
+h1 {
+    font-size: 12em;
+    margin: 0 0.1em 0 0;
+}
+
+p {
+    width: 50%;
+    font-size: 1.1em;
+    float: right;
+    margin-right: 30px;
+}
+
+iframe {
+    margin-top: 3%;
+    margin-left: 5%;
+    float: left;
+}
+
+@media screen and (min-width: 700px) {
+    iframe{
+        text-align: left;
+    }
+
+    h3 {
+        text-align: right;
+    }
+}
